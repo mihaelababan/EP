@@ -5,24 +5,76 @@ body{
 
 }
 .all{
-  
+    display: flex;
     border: 2px solid red;
 }
 .left{
-    
+    left:0;
     border: 3px solid violet;
-   
-    height: 100px;
+    width: 40%;
     justify-content: center;
     display:flex;
-    justify-items: center;
     flex-direction: column;
 }
+.orar{
+    border: 4px solid green;
+    text-align: center;
+    color: grey;
+    width: 430px;
+    height: 55px;
+    background-color: white;
+    left: 130px;
+    position: relative;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-bottom:5px ;
+}
 .butoane{
-    align-self: left;
+    left: 130px;
+    position: relative;
+    width: 430px;
+    height: 40px;
+    border: 4px solid blue;
+}
+.buton-gpa{
+    width: 104px;
+    height: 40px;
+    margin-right: 55px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #25975A;
+    color: white
+}
+.buton-gpa3{
+    width: 104px;
+    height: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #25975A;
+    color: white
+}
+.buton-gpa:hover{
+    background-color: white;
+    color: black;
+}
+.buton-gpa3:hover{
+    background-color: white;
+    color: black;
 }
 .tabel{
     display: grid;
     grid-row: auto auto auto auto auto auto auto auto;
     
+}
+.right{
+    right: 0;
+    border: 3px solid black;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+
 }
