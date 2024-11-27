@@ -9,13 +9,14 @@ body{
     border: 2px solid red;
 }
 .left{
-    display: flex;
+    
     border: 3px solid violet;
    
     height: 100px;
     justify-content: center;
     display:flex;
     justify-items: center;
+    flex-direction: column;
 }
 .butoane{
     align-self: left;
@@ -23,4 +24,5 @@ body{
 .tabel{
     display: grid;
     grid-row: auto auto auto auto auto auto auto auto;
+    
 }
