@@ -1,0 +1,26 @@
+body{
+    background-image: url(fon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.all{
+  
+    border: 2px solid red;
+}
+.left{
+    display: flex;
+    border: 3px solid violet;
+   
+    height: 100px;
+    justify-content: center;
+    display:flex;
+    justify-items: center;
+}
+.butoane{
+    align-self: left;
+}
+.tabel{
+    display: grid;
+    grid-row: auto auto auto auto auto auto auto auto;
+}
