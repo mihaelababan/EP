@@ -62,11 +62,6 @@ body{
     background-color: white;
     color: black;
 }
-.tabel{
-    display: grid;
-    grid-row: auto auto auto auto auto auto auto auto;
-    
-}
 .right{
     right: 0;
     border: 3px solid black;
@@ -204,3 +199,136 @@ input{
     font-weight: bold;
     color: #333;
 }
+.cell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd; 
+    background-color: #fff; 
+    font-size: 16px;
+    text-align: center;
+    justify-items: stretch;
+    height: 25px;
+    color: white;
+}
+.cell-1{
+    width: 110px;
+    height: 25px;
+    background-color: #25975A;
+    color: #25975A;
+}
+.cell-2{
+    background-color: #25975A;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd; 
+    text-align: center;
+    height: 25px;
+}
+.cell-3{
+    background-color: #25975A;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd; 
+    text-align: center;
+}
+.cell-PP{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd; 
+    text-align: center;
+    background-color: rgb(128, 128, 192);
+}
+.cell-SM{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd; 
+    text-align: center;
+    background-color:rgb(118, 189, 73);
+}
+.cell-BL{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd; 
+    text-align: center;
+    background-color:rgb(0, 128, 0);
+}
+.cell-EN{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd; 
+    text-align: center;
+    background-color:rgb(64, 32, 0);
+}
+.cell-PL{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd; 
+    text-align: center;
+    background-color:rgb(163, 241, 188);
+}
+.cell-MP{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd; 
+    text-align: center;
+    background-color:rgb(255, 128, 0);
+}
+.cell-EGL{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd; 
+    text-align: center;
+    background-color:rgb(211, 211, 211);
+}
+.cell-AG{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd; 
+    text-align: center;
+    background-color:rgb(255, 0, 128);
+}
+.cell-EF{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd; 
+    text-align: center;
+    background-color:black;
+}
+.tabel {
+    display: grid;
+    grid-template-columns:2.3fr repeat(7, 1fr);
+    grid-template-rows: repeat(8, 1fr); 
+    background-color: #ccc;
+    width: 435px;
+    margin-left: 135px;
+    margin-top: 20px;
+}
+.sub-tabel{
+    color: white;
+    width: 435px;
+    margin-left: 135px;
+}
+.sub-tabel
