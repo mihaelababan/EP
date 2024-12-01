@@ -1,29 +1,34 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Orar USARB</title>
-        <link href="app.css" rel="stylesheet">
-        <link rel="icon" type="image/x-icon" href=".ico">
-    </head>
-    <body>
-        <div class="all">
-            <section class="left">
-                <div class="orar">  
-                   <p><b> Orarul Cursurilor</b></p>
-                </div>
-                <div class="butoane">
-                    <button class="buton-gpa"><b>Grupe</b></button>
-                    <button class="buton-gpa"><b>Profesori</b></button>
-                    <button class="buton-gpa3"><b>Aule</b></button>
-                </div>
-             <div class="regim">
-                <div class="reg-p-stu">
-                    <b>Regim pentru student</b></div>
-                    <div class="green-rectangle"><div class="white-square"></div></div>
-                </div>
-             </div>
 
-             <div class="input">
+<head>
+    <title>Orar USARB</title>
+    <link href="app.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href=".ico">
+</head>
+
+<body>
+    <div class="all">
+        <section class="left">
+            <div class="orar">
+                <p><b> Orarul Cursurilor</b></p>
+            </div>
+            <div class="butoane">
+                <button class="buton-gpa"><b>Grupe</b></button>
+                <button class="buton-gpa"><b>Profesori</b></button>
+                <button class="buton-gpa3"><b>Aule</b></button>
+            </div>
+            <div class="regim">
+                <div class="reg-p-stu">
+                    <b>Regim pentru student</b>
+                </div>
+                <div class="green-rectangle">
+                    <div class="white-square"></div>
+                </div>
+            </div>
+
+
+            <div class="input">
                 <div class="input-icon">
                     <img src="icon.png">
                 </div>
@@ -31,203 +36,226 @@
                 <div class="input-iconx">
                     <img src="iconx.png">
                 </div>
-             </div>
-        
-                <div class="block">
-                    <div class="IT11Z"><b>IT11Z</b></div>
-                </div>
-                <div class="select-container">
-                    <select id="day-selector" class="day-selector">
-                        <option value="0">Ziua</option>
-                        <option value="luni">Luni</option>
-                        <option value="marti">Marți</option>
-                        <option value="miercuri">Miercuri</option>
-                        <option value="joi">Joi</option>
-                        <option value="vineri">Vineri</option>
-                        <option value="sambata">Sâmbătă</option>
-                        <option value="duminica">Duminică</option>
-                    </select>
-                </div>
-            
-                <div id="selected-day">
-                </div>
-
-                <div class="select-container">
-                    <select id="day-selector" class="day-selector">
-                           <option value="0">Saptamina</option>
-                           <option value="1"> 1: 2.09.2024 - 8.09.2024</option>
-                           <option value="2">2: 9.09.2024 - 15.09.2024</option>
-
-                           <option value="3">3: 16.09.2024 - 22.09.2024</option>
-
-                           <option value="4">4: 23.09.2024 - 29.09.2024</option>
-
-                           <option value="5">5: 30.09.2024 - 6.10.2024</option>
-
-                           <option value="6">6: 7.10.2024 - 13.10.2024</option>
-
-                           <option value="7">7: 14.10.2024 - 20.10.2024</option>
-
-                           <option value="8">8: 21.10.2024 - 27.10.2024</option>
-
-                           <option value="9">9: 28.10.2024 - 3.11.2024</option>
-
-                           <option value="10">10: 4.11.2024 - 10.11.2024</option>
-
-                           <option value="11">11: 11.11.2024 - 17.11.2024</option>
-
-                           <option value="12">12: 18.11.2024 - 24.11.2024</option>
-
-                           <option value="13">13: 25.11.2024 - 1.12.2024</option>
-
-                           <option value="14">14: 2.12.2024 - 8.12.2024</option>
-
-                           <option value="15">15: 9.12.2024 - 15.12.2024</option>
-
-                           <option value="16">16: 16.12.2024 - 22.12.2024</option>
-
-                           <option value="17">17: 23.12.2024 - 29.12.2024</option>
-
-                           <option value="18">18: 30.12.2024 - 5.01.2025</option>
-
-                           <option value="19">19: 6.01.2025 - 12.01.2025</option>
-
-                           <option value="20">20: 13.01.2025 - 19.01.2025</option>
-
-                           <option value="21">21: 20.01.2025 - 26.01.2025</option>
-
-                           <option value="22">22: 27.01.2025 - 2.02.2025</option>
-
-                    </select>
-                </div>
-            
-                <div id="selected-week">
-                </div>
-
-                <div class="tabel">
-                    <div class="cell-1">a</div>
-                    <div class="cell-2">1</div>
-                    <div class="cell-2">2</div>
-                    <div class="cell-2">3</div>
-                    <div class="cell-2">4</div>
-                    <div class="cell-2">5</div>
-                    <div class="cell-2">6</div>
-                    <div class="cell-2">7</div>
-                    <div class="cell-3">L - 25</div>
-                    <div class="cell">2</div>
-                    <div class="cell">2</div>
-                    <div class="cell">ef</div>
-                    <div class="cell-PP">P</div>
-                    <div class="cell-SM">S</div>
-                    <div class="cell">w</div>
-                    <div class="cell">d</div>
-                    <div class="cell-3">M - 25</div>
-                    <div class="cell">f</div>
-                    <div class="cell-BL">L</div>
-                    <div class="cell-BL">L</div>
-                    <div class="cell-EF">S</div>
-                    <div class="cell">e</div>
-                    <div class="cell">d</div>
-                    <div class="cell">e</div>
-                    <div class="cell-3">M -27</div>
-                    <div class="cell-SM">S</div>
-                    <div class="cell-EN">S</div>
-                    <div class="cell">e</div>
-                    <div class="cell-PL">L</div>
-                    <div class="cell">w</div>
-                    <div class="cell">w</div>
-                    <div class="cell">h</div>
-                    <div class="cell-3">J - 28</div>
-                    <div class="cell">h</div>
-                    <div class="cell-MP">P</div>
-                    <div class="cell-EGL">L</div>
-                    <div class="cell-EGL">L</div>
-                    <div class="cell-SM">S</div>
-                    <div class="cell">h</div>
-                    <div class="cell">h</div>
-                    <div class="cell-3">V - 29</div>
-                    <div class="cell">h</div>
-                    <div class="cell-EN">S</div>
-                    <div class="cell-PL">L</div>
-                    <div class="cell-AG">L</div>
-                    <div class="cell">h</div>
-                    <div class="cell">h</div>
-                    <div class="cell">h</div>
-                    <div class="cell-3">S - 30</div>
-                    <div class="cell">h</div>
-                    <div class="cell">h</div>
-                    <div class="cell">h</div>
-                    <div class="cell">h</div>
-                    <div class="cell">h</div>
-                    <div class="cell">h</div>
-                    <div class="cell">h</div>
-                    <div class="cell-3">D - 1</div>
-                    <div class="cell">h</div>
-                    <div class="cell">h</div>
-                    <div class="cell">h</div>
-                    <div class="cell">h</div>
-                    <div class="cell">h</div>
-                    <div class="cell">h</div>
-                    <div class="cell">d</div>
-                </div>
-                <div class="sub-tabel">
-                        <p><b>P - Prelegere</b></p>
-                        <p><b>S - Seminar</b></p>
-                        <p><b>L - Laborator</b></p>
-                        <p><b>PC - Proiect de Curs</b></p>
-                        <p><b>EP - Evaluare periodică</b></p>
-                        <p><b>C - Consultație</b></p>
-                        <p><b>E - Examinare</b></p>
-                        <p><b>R - Reexaminare</b></p>
-                        <p><b>SP - Seminar prealabil</b></p>
-                        <p><b>ST - Seminar de totalizare</b></p>
-                </div>
-                <div class="casete">
-                    <div class="descarca">Descarca orar </div>
-                    <div class="examene">Examene</div>
-                    <div class="planificare">Planificare</div>
-                </div>
-                <div class="si">Serviciul este inactiv intre ore 23:00 si 3:00</div>
-            </section>
-
-            <section class="right">
-                <div class="logo"><img src="logo_usarb.png"></div>
-                <p class="uni">UNIVERSITATEA DE STAT ALECU RUSSO DIN BALTI</p>
-                <div class="orar-day">
-            <div class="grid-orar-container">
-                <div class="cell time-cell">8:00<br>9:30</div>
-                <div class="cell">
-                    <div class="subject">Matematica I</div>
-                    <div class="type">Seminar</div>
-                    <div class="profesor">asist. univ.Rotari T. V.</div>
-                    <div class="auditorium">aud. 224</div>
-                </div>
-                <div class="cell time-cell">9:45<br>11:15</div>
-                <div class="cell">
-                    <div class="subject">Limba engleza I</div>
-                    <div class="type">Seminar</div>
-                    <div class="profesor">asist. univ.L. Cosulean</div>
-                    <div class="auditorium">aud. 101</div>
-                </div>
-                <div class="cell time-cell">11:30<br>13:00</div>
-                <div class="cell">
-                </div>
-                <div class="cell time-cell">13:15<br>14:45</div>
-                <div class="cell">
-                    <div class="subject">Proiectarea Paginilor WEB</div>
-                    <div class="type">Laborator</div>
-                    <div class="profesor">asist. univ. Chilat S.</div>
-                    <div class="auditorium">aud. 103</div>
-                </div>
-                <div class="cell time-cell">15:00<br>16:30</div>
-                <div class="cell"></div>
-                <div class="cell time-cell">16:45<br>18:15</div>
-                <div class="cell"></div>
-                <div class="cell time-cell">18:30<br>20:00</div>
-                <div class="cell"></div>
             </div>
-            </section>
 
-        </div>
-    </body>
+            <div class="block">
+                <div class="IT11Z"><b>IT11Z</b></div>
+            </div>
+            <div class="select-container">
+                <select id="day-selector" class="day-selector">
+                    <option value="0">Ziua</option>
+                    <option value="luni">Luni</option>
+                    <option value="marti">Marți</option>
+                    <option value="miercuri">Miercuri</option>
+                    <option value="joi">Joi</option>
+                    <option value="vineri">Vineri</option>
+                    <option value="sambata">Sâmbătă</option>
+                    <option value="duminica">Duminică</option>
+                </select>
+            </div>
+
+            <div id="selected-day">
+            </div>
+
+            <div class="select-container">
+                <select id="day-selector" class="day-selector">
+                    <option value="0">Saptamina</option>
+                    <option value="1"> 1: 2.09.2024 - 8.09.2024</option>
+                    <option value="2">2: 9.09.2024 - 15.09.2024</option>
+
+                    <option value="3">3: 16.09.2024 - 22.09.2024</option>
+
+                    <option value="4">4: 23.09.2024 - 29.09.2024</option>
+
+                    <option value="5">5: 30.09.2024 - 6.10.2024</option>
+
+                    <option value="6">6: 7.10.2024 - 13.10.2024</option>
+
+                    <option value="7">7: 14.10.2024 - 20.10.2024</option>
+
+                    <option value="8">8: 21.10.2024 - 27.10.2024</option>
+
+                    <option value="9">9: 28.10.2024 - 3.11.2024</option>
+
+                    <option value="10">10: 4.11.2024 - 10.11.2024</option>
+
+                    <option value="11">11: 11.11.2024 - 17.11.2024</option>
+
+                    <option value="12">12: 18.11.2024 - 24.11.2024</option>
+
+                    <option value="13">13: 25.11.2024 - 1.12.2024</option>
+
+                    <option value="14">14: 2.12.2024 - 8.12.2024</option>
+
+                    <option value="15">15: 9.12.2024 - 15.12.2024</option>
+
+                    <option value="16">16: 16.12.2024 - 22.12.2024</option>
+
+                    <option value="17">17: 23.12.2024 - 29.12.2024</option>
+
+                    <option value="18">18: 30.12.2024 - 5.01.2025</option>
+
+                    <option value="19">19: 6.01.2025 - 12.01.2025</option>
+
+                    <option value="20">20: 13.01.2025 - 19.01.2025</option>
+
+                    <option value="21">21: 20.01.2025 - 26.01.2025</option>
+
+                    <option value="22">22: 27.01.2025 - 2.02.2025</option>
+
+                </select>
+            </div>
+
+            <div id="selected-week">
+            </div>
+
+            <div class="tabel">
+                <div class="cell-1">a</div>
+                <div class="cell-2">1</div>
+                <div class="cell-2">2</div>
+                <div class="cell-2">3</div>
+                <div class="cell-2">4</div>
+                <div class="cell-2">5</div>
+                <div class="cell-2">6</div>
+                <div class="cell-2">7</div>
+                <div class="cell-2">8</div>
+
+
+                <div class="cell-3">L - 25</div>
+                <div class="cell">2</div>
+                <div class="cell">2</div>
+                <div class="cell">ef</div>
+                <div class="cell-PP">P</div>
+                <div class="cell-SM">S</div>
+                <div class="cell">w</div>
+                <div class="cell">d</div>
+                <div class="cell">d</div>
+
+
+                <div class="cell-3">M - 25</div>
+                <div class="cell">f</div>
+                <div class="cell-BL">L</div>
+                <div class="cell-BL">L</div>
+                <div class="cell-EF">S</div>
+                <div class="cell">e</div>
+                <div class="cell">d</div>
+                <div class="cell">e</div>
+                <div class="cell">d</div>
+                <div class="cell-3">M -27</div>
+                <div class="cell-SM">S</div>
+                <div class="cell-EN">S</div>
+                <div class="cell">e</div>
+                <div class="cell-PL">L</div>
+                <div class="cell">w</div>
+                <div class="cell">w</div>
+                <div class="cell">h</div>
+                <div class="cell">d</div>
+                <div class="cell-3">J - 28</div>
+                <div class="cell">h</div>
+                <div class="cell-MP">P</div>
+                <div class="cell-EGL">L</div>
+                <div class="cell-EGL">L</div>
+                <div class="cell-SM">S</div>
+                <div class="cell">h</div>
+                <div class="cell">h</div>
+                <div class="cell">d</div>
+                <div class="cell-3">V - 29</div>
+                <div class="cell">h</div>
+                <div class="cell-EN">S</div>
+                <div class="cell-PL">L</div>
+                <div class="cell-AG">L</div>
+                <div class="cell">h</div>
+                <div class="cell">h</div>
+                <div class="cell">h</div>
+                <div class="cell">d</div>
+                <div class="cell-3">S - 30</div>
+                <div class="cell">h</div>
+                <div class="cell">h</div>
+                <div class="cell">h</div>
+                <div class="cell">h</div>
+                <div class="cell">h</div>
+                <div class="cell">h</div>
+                <div class="cell">h</div>
+                <div class="cell">d</div>
+                <div class="cell-3">D - 1</div>
+                <div class="cell">h</div>
+                <div class="cell">h</div>
+                <div class="cell">h</div>
+                <div class="cell">h</div>
+                <div class="cell">h</div>
+                <div class="cell">h</div>
+                <div class="cell">d</div>
+                <div class="cell">d</div>
+            </div>
+            <div class="sub-tabel">
+                <p><b>P - Prelegere</b></p>
+                <p><b>S - Seminar</b></p>
+                <p><b>L - Laborator</b></p>
+                <p><b>PC - Proiect de Curs</b></p>
+                <p><b>EP - Evaluare periodică</b></p>
+                <p><b>C - Consultație</b></p>
+                <p><b>E - Examinare</b></p>
+                <p><b>R - Reexaminare</b></p>
+                <p><b>SP - Seminar prealabil</b></p>
+                <p><b>ST - Seminar de totalizare</b></p>
+            </div>
+            <div class="casete">
+                <div class="descarca">Descarca orar </div>
+                <div class="examene">Examene</div>
+                <div class="planificare">Planificare</div>
+            </div>
+            <div class="si">Serviciul este inactiv intre ore 23:00 si 3:00</div>
+        </section>
+
+        <section class="right">
+            <div class="logo"><img src="logo_usarb.png"></div>
+            <p class="uni">UNIVERSITATEA DE STAT ALECU RUSSO DIN BALTI</p>
+            <div class="orar-day">
+                <div class="grid-orar-container">
+                    <div class="container-hover-hover">
+                        <div class="cell-time-cell">8:00<br>9:30</div>
+                        <div class="cell-tb">
+                            <div class="subject"><b>Matematica I</b></div>
+                            <div class="type">Seminar</div>
+                            <div class="profesor">asist. univ.Rotari T. V.</div>
+                            <div class="auditorium"><b>aud. 224</b></div>
+                        </div>
+                    </div>
+                    <div class="container-hover-hover">
+                    <div class="cell-time-cell">9:45<br>11:15</div>
+                    <div class="cell-tb">
+                        <div class="subject"><b>Limba engleza I</b></div>
+                        <div class="type">Seminar</div>
+                        <div class="profesor">asist. univ.L. Cosulean</div>
+                        <div class="auditorium"><b>aud. 101</b></div>
+                    </div>
+                    </div>
+                    <div class="container-hover-hover">
+                    <div class="cell-time-cell">11:30<br>13:00</div>
+                    <div class="cell-tb">
+                    </div>
+                    </div>
+                    <div class="container-hover-hover">
+                    <div class="cell-time-cell">13:15<br>14:45</div>
+                    <div class="cell-tb">
+                        <div class="subject"><b>Proiectarea Paginilor WEB</b></div>
+                        <div class="type">Laborator</div>
+                        <div class="profesor">asist. univ. Chilat S.</div>
+                        <div class="auditorium"><b>aud. 103</b></div>
+                    </div>
+                    </div>
+                    <div class="container-hover-hover">
+                    <div class="cell-time-cell">15:00<br>16:30</div>
+                    <div class="cell-tb"></div></div>
+                    <div class="container-hover-hover">
+                    <div class="cell-time-cell">16:45<br>18:15</div>
+                    <div class="cell-tb"></div></div>
+                    <div class="container-hover-hover">
+                    <div class="cell-time-cell">18:30<br>20:00</div>
+                    <div class="cell-tb"></div></div>
+                </div>
+        </section>
+    </div>
+</body>
+
 </html>
