@@ -243,6 +243,7 @@ input{
     border: 1px solid #ddd; 
     text-align: center;
     background-color: rgb(128, 128, 192);
+    height: 25px;
 }
 .cell-SM{
     color: white;
@@ -252,6 +253,7 @@ input{
     border: 1px solid #ddd; 
     text-align: center;
     background-color:rgb(118, 189, 73);
+    height: 25px;
 }
 .cell-BL{
     color: white;
@@ -261,6 +263,7 @@ input{
     border: 1px solid #ddd; 
     text-align: center;
     background-color:rgb(0, 128, 0);
+    height: 25px;
 }
 .cell-EN{
     color: white;
@@ -270,6 +273,7 @@ input{
     border: 1px solid #ddd; 
     text-align: center;
     background-color:rgb(64, 32, 0);
+    height: 25px;
 }
 .cell-PL{
     color: white;
@@ -279,6 +283,7 @@ input{
     border: 1px solid #ddd; 
     text-align: center;
     background-color:rgb(163, 241, 188);
+    height: 25px;
 }
 .cell-MP{
     color: white;
@@ -288,6 +293,7 @@ input{
     border: 1px solid #ddd; 
     text-align: center;
     background-color:rgb(255, 128, 0);
+    height: 25px;
 }
 .cell-EGL{
     color: white;
@@ -297,6 +303,7 @@ input{
     border: 1px solid #ddd; 
     text-align: center;
     background-color:rgb(211, 211, 211);
+    height: 25px;
 }
 .cell-AG{
     color: white;
@@ -306,6 +313,7 @@ input{
     border: 1px solid #ddd; 
     text-align: center;
     background-color:rgb(255, 0, 128);
+    height: 25px;
 }
 .cell-EF{
     color: white;
@@ -315,15 +323,31 @@ input{
     border: 1px solid #ddd; 
     text-align: center;
     background-color:black;
+    height: 25px;
 }
+.row {
+    display: contents;
+}
+
+.cell-3 {
+    grid-column: 1 / span 1; 
+}
+.cell-3:hover {
+    background-color: lightblue;
+}
+
 .tabel {
     display: grid;
     grid-template-columns:2.3fr repeat(8, 1fr);
     grid-template-rows: repeat(8, 1fr); 
-    background-color: #ccc;
+    display: grid;
+    height: 205px;
     width: 435px;
-    margin-left: 135px;
+    margin-left: 130px;
     margin-top: 20px;
+}
+.row:hover .cell-3 {
+    background-color:#e6daa5;
 }
 .sub-tabel{
     
